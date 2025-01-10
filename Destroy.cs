@@ -2,19 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelloWorld : MonoBehaviour
+public class Destroy : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        // Output to console greeting to world
-        print("Hello, World");
-        
+        Destroy(this.gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        print("crickets");
+        
     }
 }
